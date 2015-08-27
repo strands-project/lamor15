@@ -1,0 +1,19 @@
+<launch>
+  <arg name="dataset" default="bl_sim"/>
+  <arg name="mon_nav_config_file" default=""/> 
+  <arg name="map" default="$(find strands_morse)/uol/maps/uol_bl.yaml"/>
+ 
+  
+  <!-- 2D Navigation -->
+  <include file="$(find scitos_2d_navigation)/launch/scitos_2d_nav.launch">
+    <arg name="map" value="$(arg map)"/>
+  </include>
+  
+
+  <!--- Topological Navigation (includes monitored_navigation) -->
+  <include file="$(find topological_navigation)/launch/topological_navigation.launch">
+    <arg name="map" value="$(arg dataset)"/>
+    <arg name="mon_nav_config_file" value="$(arg mon_nav_config_file)"/>
+  </include>  
+
+</launch>

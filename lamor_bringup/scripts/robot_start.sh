@@ -36,11 +36,10 @@ tmux select-window -t $SESSION:4
 tmux send-keys "HOST_IP=192.168.0.100 DISPLAY=:0 roslaunch strands_ui strands_ui.launch mary_machine:=$HEAD_PC mary_machine_user:=lamor"
 
 tmux select-window -t $SESSION:5
-tmux send-keys "DISPLAY=:0 roslaunch aaf_bringup aaf_navigation.launch map:=/opt/strands/map/aaf_winter.yaml topological_map:=aaf_deployment"
+tmux send-keys "DISPLAY=:0 roslaunch lamor_bringup lamor_navigation.launch chest_xtion_machine:=$CHEST_PC chest_xtion_user:=$USER head_xtion_machine:=$HEAD_PC head_xtion_user:=$USER topo_nav_machine:=$CHEST_PC topo_nav_user:=$USER map:=\$(rospack find lamor_bringup)/resources/bandl_linda.yaml topological_map:=bandl"
 
 tmux select-window -t $SESSION:6
 tmux send-keys "DISPLAY=:0 roslaunch perception_people_launch people_tracker_robot.launch machine:=$HEAD_PC user:=lamor"
-
 
 # Set default window
 tmux select-window -t $SESSION:0
