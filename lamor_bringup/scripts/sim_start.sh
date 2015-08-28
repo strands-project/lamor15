@@ -23,13 +23,13 @@ tmux select-window -t $SESSION:1
 tmux send-keys "DISPLAY=:0 roslaunch mongodb_store mongodb_store.launch db_path:=$HOME/mongodb_lamor"
 
 tmux select-window -t $SESSION:2
-tmux send-keys "DISPLAY=:0 roslaunch strands_morse uol_bl_morse.launch"
+tmux send-keys "DISPLAY=:0 roslaunch strands_morse uol_bl_morse.launch env:=uol_bl_fast"
 
 tmux select-window -t $SESSION:3
 tmux send-keys "DISPLAY=:0 roslaunch strands_morse uol_bl_nav2d.launch"
 
 tmux select-window -t $SESSION:4
-tmux send-keys "DISPLAY=:0 roslaunch lamor_bringup lamor_sim_navigation.launch dataset:=bl_sim map:=\$(find strands_morse)/uol/maps/uol_bl.yaml"
+tmux send-keys "DISPLAY=:0 roslaunch lamor_bringup lamor_sim_navigation.launch dataset:=bl_sim map:=\$(rospack find strands_morse)/uol/maps/uol_bl.yaml"
 
 
 # Set default window
