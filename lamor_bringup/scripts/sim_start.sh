@@ -29,7 +29,7 @@ tmux select-window -t $SESSION:3
 tmux send-keys "DISPLAY=:0 roslaunch strands_morse uol_bl_nav2d.launch"
 
 tmux select-window -t $SESSION:4
-tmux send-keys "DISPLAY=:0 roslaunch strands_morse uol_bl_nav2d.launch"
+tmux send-keys "DISPLAY=:0 roslaunch lamor_bringup lamor_sim_navigation.launch dataset:=bl_sim map:=\$(find strands_morse)/uol/maps/uol_bl.yaml"
 
 
 # Set default window

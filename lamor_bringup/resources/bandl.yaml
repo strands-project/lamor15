@@ -60,7 +60,7 @@
       node: ChargingPoint
       recovery_behaviours_config: ''
       top_vel: 0.55
-    localise_by_topic: '""'
+    localise_by_topic: ''
     map: bandl
     name: WayPoint0
     pointset: bandl
@@ -113,7 +113,7 @@
       node: WayPoint0
       recovery_behaviours_config: ''
       top_vel: 0.55
-    localise_by_topic: '""'
+    localise_by_topic: ''
     map: bandl
     name: WayPoint1
     pointset: bandl
@@ -187,7 +187,7 @@
       node: WayPoint17
       recovery_behaviours_config: ''
       top_vel: 0.55
-    localise_by_topic: '""'
+    localise_by_topic: ''
     map: bandl
     name: WayPoint10
     pointset: bandl
@@ -233,7 +233,7 @@
       node: WayPoint9
       recovery_behaviours_config: ''
       top_vel: 0.55
-    localise_by_topic: '""'
+    localise_by_topic: ''
     map: bandl
     name: WayPoint11
     pointset: bandl
@@ -279,7 +279,7 @@
       node: WayPoint10
       recovery_behaviours_config: ''
       top_vel: 0.55
-    localise_by_topic: '""'
+    localise_by_topic: ''
     map: bandl
     name: WayPoint12
     pointset: bandl
@@ -325,7 +325,7 @@
       node: WayPoint14
       recovery_behaviours_config: ''
       top_vel: 0.55
-    localise_by_topic: '""'
+    localise_by_topic: ''
     map: bandl
     name: WayPoint13
     pointset: bandl
@@ -385,7 +385,7 @@
       node: WayPoint15
       recovery_behaviours_config: ''
       top_vel: 0.55
-    localise_by_topic: '""'
+    localise_by_topic: ''
     map: bandl
     name: WayPoint14
     pointset: bandl
@@ -445,7 +445,7 @@
       node: WayPoint19
       recovery_behaviours_config: ''
       top_vel: 0.55
-    localise_by_topic: '""'
+    localise_by_topic: ''
     map: bandl
     name: WayPoint15
     pointset: bandl
@@ -505,7 +505,7 @@
       node: WayPoint19
       recovery_behaviours_config: ''
       top_vel: 0.55
-    localise_by_topic: '""'
+    localise_by_topic: ''
     map: bandl
     name: WayPoint16
     pointset: bandl
@@ -565,7 +565,7 @@
       node: WayPoint18
       recovery_behaviours_config: ''
       top_vel: 0.55
-    localise_by_topic: '""'
+    localise_by_topic: ''
     map: bandl
     name: WayPoint17
     pointset: bandl
@@ -625,7 +625,7 @@
       node: WayPoint17
       recovery_behaviours_config: ''
       top_vel: 0.55
-    localise_by_topic: '""'
+    localise_by_topic: ''
     map: bandl
     name: WayPoint18
     pointset: bandl
@@ -678,7 +678,7 @@
       node: WayPoint16
       recovery_behaviours_config: ''
       top_vel: 0.55
-    localise_by_topic: '""'
+    localise_by_topic: ''
     map: bandl
     name: WayPoint19
     pointset: bandl
@@ -745,7 +745,7 @@
       node: WayPoint9
       recovery_behaviours_config: ''
       top_vel: 0.55
-    localise_by_topic: '""'
+    localise_by_topic: ''
     map: bandl
     name: WayPoint2
     pointset: bandl
@@ -805,7 +805,7 @@
       node: WayPoint6
       recovery_behaviours_config: ''
       top_vel: 0.55
-    localise_by_topic: '""'
+    localise_by_topic: ''
     map: bandl
     name: WayPoint3
     pointset: bandl
@@ -851,7 +851,7 @@
       node: WayPoint3
       recovery_behaviours_config: ''
       top_vel: 0.55
-    localise_by_topic: '""'
+    localise_by_topic: ''
     map: bandl
     name: WayPoint4
     pointset: bandl
@@ -904,7 +904,7 @@
       node: WayPoint7
       recovery_behaviours_config: ''
       top_vel: 0.55
-    localise_by_topic: '""'
+    localise_by_topic: ''
     map: bandl
     name: WayPoint5
     pointset: bandl
@@ -978,7 +978,7 @@
       node: WayPoint9
       recovery_behaviours_config: ''
       top_vel: 0.55
-    localise_by_topic: '""'
+    localise_by_topic: ''
     map: bandl
     name: WayPoint6
     pointset: bandl
@@ -1045,7 +1045,7 @@
       node: WayPoint18
       recovery_behaviours_config: ''
       top_vel: 0.55
-    localise_by_topic: '""'
+    localise_by_topic: ''
     map: bandl
     name: WayPoint7
     pointset: bandl
@@ -1112,7 +1112,7 @@
       node: WayPoint18
       recovery_behaviours_config: ''
       top_vel: 0.55
-    localise_by_topic: '""'
+    localise_by_topic: ''
     map: bandl
     name: WayPoint8
     pointset: bandl
@@ -1186,7 +1186,7 @@
       node: WayPoint11
       recovery_behaviours_config: ''
       top_vel: 0.55
-    localise_by_topic: '""'
+    localise_by_topic: ''
     map: bandl
     name: WayPoint9
     pointset: bandl
