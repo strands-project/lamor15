@@ -8,7 +8,7 @@ tmux new-window -t $SESSION:0 -n 'roscore'
 tmux new-window -t $SESSION:1 -n 'core'
 tmux new-window -t $SESSION:2 -n 'simulation'
 tmux new-window -t $SESSION:3 -n '2d_nav'
-tmux new-window -t $SESSION:4 -n 'navigation'
+tmux new-window -t $SESSION:4 -n 'topo_nav'
 
 
 tmux select-window -t $SESSION:0
@@ -26,10 +26,10 @@ tmux select-window -t $SESSION:2
 tmux send-keys "DISPLAY=:0 roslaunch strands_morse uol_bl_morse.launch env:=uol_bl_fast"
 
 tmux select-window -t $SESSION:3
-tmux send-keys "DISPLAY=:0 roslaunch strands_morse uol_bl_nav2d.launch"
+tmux send-keys "DISPLAY=:0 roslaunch lamor_bringup uol_bl_nav2d.launch map:=\$(rospack find strands_morse)/uol/maps/uol_bl.yaml"
 
 tmux select-window -t $SESSION:4
-tmux send-keys "DISPLAY=:0 roslaunch lamor_bringup lamor_sim_navigation.launch dataset:=bl_sim map:=\$(rospack find strands_morse)/uol/maps/uol_bl.yaml"
+tmux send-keys "DISPLAY=:0 roslaunch lamor_bringup lamor_sim_navigation.launch dataset:=bl_sim"
 
 
 # Set default window
